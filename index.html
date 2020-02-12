@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+        * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+        }
+
+        html, body, #root {
+        height: 100%;
+        }
+
+        body {
+        background: #E5E6F0;
+        -webkit-font-smoothing: antialiased;
+        }
+
+        body, input, button {
+        font-family: Roboto, sans-serif;
+        }
+        .center-content{
+            width: 100%;
+            max-width: 300px;
+            margin:0 auto;
+            padding-top: 10%; 
+            text-align: center;
+        }
+        .modal p{
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-content">
+        <h1>Content</h1>
+    </div>
+<div class="modal"><p>Content Modal</p></div>
+<script src="lib/modal.min.js"></script>
+<script>
+ modal({
+     target : '.modal',
+     width: '500px',
+     height: '300px',
+     time: 100,
+     //rounded: true
+ })
+</script>
+</body>
+</html>

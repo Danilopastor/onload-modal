@@ -1,0 +1,10 @@
+{
+    "author": "Danilo Pastor (https://nativamultimidia.com.br)",
+    "name": "onload-modal",
+    "description": "This library adds a modal when loading the page, ideal for displaying promotions and other notices to users.",
+    "version": "1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Danilopastor/onload-modal.git"
+    }
+}
